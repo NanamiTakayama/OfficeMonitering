@@ -135,7 +135,6 @@ while True:
 		writeReg(0xF4,ctrl_meas_reg)
 		writeReg(0xF5,config_reg)
 
-
 	setup()
 	get_calib_param()
 	time.sleep(5)
