@@ -15,7 +15,6 @@ digH = []
 t_fine = 0.0
 
 while True:
-	time.sleep(5)
 
 	def writeReg(reg_address, data):
 		bus.write_byte_data(i2c_address,reg_address,data)
@@ -139,6 +138,7 @@ while True:
 
 	setup()
 	get_calib_param()
+	time.sleep(5)
 
 
 if __name__ == '__main__':
