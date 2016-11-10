@@ -139,9 +139,9 @@ setup()
 get_calib_param()
 
 while True:
-	compensate_P(adc_P)
-	compensate_T(adc_T)
-	compensate_H(adc_H)
+	compensate_P()
+	compensate_T()
+	compensate_H()
 	time.sleep(5)
 
 
