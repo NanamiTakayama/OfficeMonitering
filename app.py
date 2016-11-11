@@ -140,7 +140,7 @@ get_calib_param()
 
 while True:
 	print " "
-	print "__OMver7.0__"
+	print "__OMver8.0__"
 	readData()
 	time.sleep(6)
 
