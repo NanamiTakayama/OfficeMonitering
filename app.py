@@ -140,9 +140,9 @@ get_calib_param()
 
 while True:
 	print " "
-	print "__OMver6.0__"
+	print "__OMver7.0__"
 	readData()
-	time.sleep(4)
+	time.sleep(6)
 
 if __name__ == '__main__':
 	try:
