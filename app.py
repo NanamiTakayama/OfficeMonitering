@@ -139,10 +139,11 @@ setup()
 get_calib_param()
 
 while True:
+	print "____"
 	print " "
-	print " "
+	print "Hello"
 	print "ABSIUH"
-	print "__OMver12.0__"
+	print "__OMver13.0__"
 	readData()
 	time.sleep(7)
 
