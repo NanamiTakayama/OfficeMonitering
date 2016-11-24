@@ -140,7 +140,7 @@ get_calib_param()
 
 while True:
 	print " "
-	print "__OMver15.0__"
+	print "update from MS"
 	readData()
 	time.sleep(15)
 	print " "
