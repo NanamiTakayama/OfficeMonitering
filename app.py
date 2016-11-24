@@ -140,9 +140,9 @@ get_calib_param()
 
 while True:
 	print " "
-	print "update from MS"
+	print "update from MS17"
 	readData()
-	time.sleep(15)
+	time.sleep(3)
 	print " "
 
 if __name__ == '__main__':
