@@ -140,7 +140,7 @@ get_calib_param()
 
 while True:
 	print " "
-	print "update from MS17"
+	print "update from MS18"
 	readData()
 	time.sleep(3)
 	print " "
